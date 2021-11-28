@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="DMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>497</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>deepin-terminal themes changer</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QWidget" name="centralwidget" native="true">
+     <layout class="QGridLayout" name="gridLayout_2" rowstretch="20,1" columnstretch="1,1">
+      <item row="0" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout" stretch="1,20">
+        <item>
+         <widget class="DLabel" name="label">
+          <property name="text">
+           <string>Themes:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="ThemePanel" name="frameThemes">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="1">
+       <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,20">
+        <item>
+         <widget class="DLabel" name="label_2">
+          <property name="text">
+           <string>Theme Settings:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frameThemeSettings">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="0" column="0">
+            <widget class="DLabel" name="lblForeground">
+             <property name="text">
+              <string>Foreground Color</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="DPushButton" name="btnSetForeground">
+             <property name="text">
+              <string>Change Color</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="DLabel" name="lblBackground">
+             <property name="text">
+              <string>Background Color</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="DPushButton" name="btnSetBackground">
+             <property name="text">
+              <string>Change Color</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="DLabel" name="lblColor1">
+             <property name="text">
+              <string>Color 1</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="DPushButton" name="btnSetColor1">
+             <property name="text">
+              <string>Change Color</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="DLabel" name="lblColor2">
+             <property name="text">
+              <string>Color 2</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="DPushButton" name="btnSetColor2">
+             <property name="text">
+              <string>Change Color</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="DLabel" name="lblColor3">
+             <property name="text">
+              <string>Color 3</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="DPushButton" name="btnSetColor3">
+             <property name="text">
+              <string>Change Color</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="DLabel" name="lblColor4">
+             <property name="text">
+              <string>Color 4</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="DPushButton" name="btnSetColor4">
+             <property name="text">
+              <string>Change Color</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="DLabel" name="lblColor5">
+             <property name="text">
+              <string>Color 5</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="DPushButton" name="btnSetColor5">
+             <property name="text">
+              <string>Change Color</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="DLabel" name="lblColor6">
+             <property name="text">
+              <string>Color 6</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="DPushButton" name="btnSetColor6">
+             <property name="text">
+              <string>Change Color</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="0">
+            <widget class="DLabel" name="lblColor7">
+             <property name="text">
+              <string>Color 7</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="DPushButton" name="btnSetColor7">
+             <property name="text">
+              <string>Change Color</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="0">
+            <widget class="DLabel" name="lblColor8">
+             <property name="text">
+              <string>Color 8</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1">
+            <widget class="DPushButton" name="btnSetColor8">
+             <property name="text">
+              <string>Change Color</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="DPushButton" name="btnSetTheme">
+          <property name="text">
+           <string>Set Theme</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="DPushButton" name="btnRestore">
+          <property name="text">
+           <string>Restore</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>DMainWindow</class>
+   <extends>QWidget</extends>
+   <header>dmainwindow.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DLabel</class>
+   <extends>QLabel</extends>
+   <header>dlabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ThemePanel</class>
+   <extends>QFrame</extends>
+   <header>themepanel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DPushButton</class>
+   <extends>QPushButton</extends>
+   <header>DPushButton</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

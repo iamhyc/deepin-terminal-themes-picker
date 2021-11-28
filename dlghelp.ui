@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DlgHelp</class>
+ <widget class="DDialog" name="DlgHelp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>460</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Help</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="DLabel" name="label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Usage:&lt;/p&gt;&lt;p&gt;I am very lazy, very lazy, I am much lazy to write a button to specify whether it is a LIGHT theme or a DARK theme.&lt;/p&gt;&lt;p&gt;Therefore, when this program is running in a LIGHT color theme, the set Deepin Terminal theme is a LIGHT color theme, and when this program is running in a DARK color theme, the set Deepin Terminal theme is a DARK color theme.&lt;/p&gt;&lt;p&gt;Choose a theme from the left, and then adjust the color you like from the right. Although there are many, but basically the foreground and background colors work.&lt;/p&gt;&lt;p&gt;After the selection is completed, click the Set Theme button, QUIT ALL Deepin Terminal processes, and then restart one !&lt;/p&gt;&lt;p&gt;Restore theme Button, You can restore to the original theme configuration.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>DLabel</class>
+   <extends>QLabel</extends>
+   <header>dlabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>DDialog</class>
+   <extends>QWidget</extends>
+   <header>ddialog.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

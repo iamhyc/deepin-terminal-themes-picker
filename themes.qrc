@@ -1,0 +1,58 @@
+<RCC>
+    <qresource prefix="/themes">
+        <file>themes/aci</file>
+        <file>themes/aco</file>
+        <file>themes/argonaut</file>
+        <file>themes/azu</file>
+        <file>themes/bim</file>
+        <file>themes/breeze</file>
+        <file>themes/cai</file>
+        <file>themes/chalk</file>
+        <file>themes/deepin</file>
+        <file>themes/dracula</file>
+        <file>themes/elementary</file>
+        <file>themes/elic</file>
+        <file>themes/elio</file>
+        <file>themes/empathy</file>
+        <file>themes/flat</file>
+        <file>themes/freya</file>
+        <file>themes/gruvbox dark</file>
+        <file>themes/gruvbox light</file>
+        <file>themes/hemisu dark</file>
+        <file>themes/hemisu light</file>
+        <file>themes/hybrid</file>
+        <file>themes/jup</file>
+        <file>themes/mar</file>
+        <file>themes/material</file>
+        <file>themes/miu</file>
+        <file>themes/monokai dark</file>
+        <file>themes/nep</file>
+        <file>themes/ocean dark</file>
+        <file>themes/one dark</file>
+        <file>themes/one light</file>
+        <file>themes/pali</file>
+        <file>themes/peppermint</file>
+        <file>themes/sat</file>
+        <file>themes/shel</file>
+        <file>themes/smyck</file>
+        <file>themes/solarized dark</file>
+        <file>themes/solarized light</file>
+        <file>themes/tango</file>
+        <file>themes/tin</file>
+        <file>themes/tomorrow</file>
+        <file>themes/tomorrow night</file>
+        <file>themes/tomorrow night blue</file>
+        <file>themes/tomorrow night bright</file>
+        <file>themes/tomorrow night eighties</file>
+        <file>themes/ura</file>
+        <file>themes/vag</file>
+        <file>themes/white wind</file>
+    </qresource>
+    <qresource prefix="/themesDefault">
+        <file>themesDefault/Dark.colorscheme</file>
+        <file>themesDefault/Light.colorscheme</file>
+    </qresource>
+    <qresource prefix="/common">
+        <file>deepin-terminal-themes_zh_CN.qm</file>
+    </qresource>
+</RCC>
