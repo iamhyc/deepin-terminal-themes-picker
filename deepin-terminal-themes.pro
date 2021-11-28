@@ -40,6 +40,12 @@ FORMS += \
 TRANSLATIONS += \
     deepin-terminal-themes_zh_CN.ts
 
+DESTDIR = build/bin
+MOC_DIR = build/moc
+RCC_DIR = build/rcc
+UI_DIR = build/ui
+unix:OBJECTS_DIR = build/o/unix
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin

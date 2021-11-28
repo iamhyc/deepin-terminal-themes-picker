@@ -1,0 +1,12 @@
+Source: deepin-terminal-themes
+Section: utils
+Priority: optional
+Maintainer: <sudofree@163.com>
+
+Package: deepin-terminal-themes
+Architecture: amd64
+Build-Depends: debhelper (>= 9), fakeroot, qtbase5-dev, qtbase5-dev-tools, qt5-qmake, libdtkcore-dev, libdtkwidget-dev, libdtkgui-dev
+Version: 1.0
+Homepage: https://github.com/iamhyc/deepin-terminal-themes-picker
+Depends: libqt5gui5, libqt5widgets5, libqt5core5a
+Description: Deepin Terminal Themes Changer.
